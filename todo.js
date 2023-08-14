@@ -66,9 +66,9 @@ darkmod.addEventListener ('click', changebackground)
 function changebackground (u){
     u.preventDefault();
     if (window.matchMedia('(max-width: 639px)').matches) {
-    body1.style.backgroundImage = 'url("/todoApp/images/bg-mobile-dark.jpg")';   
+    body1.style.backgroundImage = 'url("/todoApp/bg-mobile-dark.jpg")';   
     }else if (window.matchMedia('(min-width: 640px)').matches && window.matchMedia('(max-width: 1500px)').matches) {
-    body1.style.backgroundImage = 'url("/todoApp/images/bg-desktop-dark.jpg")';      
+    body1.style.backgroundImage = 'url("/todoApp/bg-desktop-dark.jpg")';      
 }}
 
 
@@ -94,9 +94,9 @@ light1.addEventListener ('click', changebackground1)
 function changebackground1 (l){
     l.preventDefault();
     if (window.matchMedia('(max-width: 639px)').matches) {
-    body1.style.backgroundImage = 'url("/todoApp/images/bg-mobile-light.jpg")';   
+    body1.style.backgroundImage = 'url("/todoApp/bg-mobile-light.jpg")';   
     }else if (window.matchMedia('(min-width: 640px)').matches && window.matchMedia('(max-width: 1500px)').matches) {
-    body1.style.backgroundImage = 'url("/todoApp/images/bg-desktop-light.jpg")';      
+    body1.style.backgroundImage = 'url("/todoApp/bg-desktop-light.jpg")';      
 }}
 
 
