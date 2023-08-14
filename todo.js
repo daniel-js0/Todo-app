@@ -327,7 +327,7 @@ clear.addEventListener('click', () => {
 
 clear1.addEventListener('click', () => {
   comp.innerHTML = `<P>No completed tasks found:<P>`;
-  comp2.innerHTML = `<P>So bad... You need to get back to work!<P>`;
+  comp2.innerHTML = `<P> You need to get back to work!<P>`;
   clear1.classList.add('text-sky-500');
   compd.classList.remove('text-sky-500');
   all.classList.remove('text-sky-500');
