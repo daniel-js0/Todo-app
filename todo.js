@@ -102,9 +102,6 @@ function changebackground1 (l){
 
 
 
-
-
-
 let completedTasksCount = 0
 let activeTasksCount = 0
 const todolist = document.getElementById('todolist'); 
